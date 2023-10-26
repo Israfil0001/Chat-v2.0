@@ -1,0 +1,31 @@
+.Login {
+    width: 30%;
+    height: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 10%;
+    justify-content: center;
+    margin-left: 35%;
+}
+.Login-text{
+justify-content: center;
+display: flex;
+width: 100%;
+}
+.Autorization{
+    width: 30%;
+    height: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 10%;
+    justify-content: center;
+    margin-left: 35%;
+}
+.Autorization-text{
+justify-content: center;
+display: flex;
+width: 100%;
+font-size: 1.6rem;
+}

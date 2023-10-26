@@ -1,0 +1,25 @@
+.nav-bar {
+  align-items: center;
+  background-color: #474b58;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  color: inherit;
+  border-radius: 15px;
+  justify-content: space-between;
+  padding: 1rem;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.nav-bar-left-items {
+  display: flex;
+  gap: 1rem;
+}

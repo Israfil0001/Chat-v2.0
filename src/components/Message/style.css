@@ -1,0 +1,45 @@
+.container-m {
+  width: 100%;
+  height: 68%;
+  background-color: #474B58;
+  display: flex;
+  color: white;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 25%;
+}
+
+.container-custom {
+  position: relative;
+}
+
+.Message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 52%;
+  width: 100%;
+}
+
+.input-message {
+  width: 100%;
+  border-radius: 7px;
+  padding: 0.2rem;
+  padding-top: 0.6rem;
+}
+
+.innfo {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  align-items: flex-end;
+  background-color: aqua;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%);
+}

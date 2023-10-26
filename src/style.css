@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  overflow-x: hidden !important;
+  width: 100% !important;
+  height: 100%;
+  background-color: #2f3239;
+  color: white !important;
+}
+
+input {
+  color: white;
+  border: none !important;
+  width: 100%;
+  background-color: #474B58;
+  border-radius: 7px;
+  padding: 0.4rem;
+}
+
+input::placeholder {
+  padding: 1rem;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: teal;
+}
+
+.message-card {
+  background-color: #2c2d3d;
+  /* border: 2px #474b58 solid; */
+  padding: 0.5rem 1rem;
+  max-height: 4rem;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 0.5rem;
+  gap: 1rem;
+}
+
+.message-card span {
+  line-height: 1rem;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.text-secondary {
+  color: #474b58;
+}
+
+.profile-pic {
+  height: 30px;
+  width: 30px !important;
+  background-color: #474b58;
+  border-radius: 50%;
+}
+
+.message-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #474b58;
+  /* min-height: 100% !important; */
+  height: 100%;
+}
+
+.height-to-the-bottom {
+  overflow: hidden;
+  height: 80vh;
+}
+
+.search {}
+
+.search::placeholder::before {
+  content: "\1F50D";
+}
